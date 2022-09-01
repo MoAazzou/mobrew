@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' !important;
+}
+.container1{
+    /* background-image: url(images/background.png); */
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.homepage{
+    height:100vh;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+.secPage{
+    min-height:100vh;
+    width: 100%;
+    background-color: #24504E;
+    padding-top: 100px;
+    overflow-x: hidden;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{ 
+    cursor: pointer;
+    color: #F8FFFF;
+    font: normal normal normal 30px/37px Crozier Black CF;
+    font-weight: 900;
+}
+.cart{
+    width: 40px;
+    cursor: pointer;
+}
+nav{
+    flex:1;
+    padding-left: 60px;
+}
+nav ul li{
+    list-style: none !important;
+    display: inline-block;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #24504E;
+    font-weight: 800;
+}
+.bg-vert{
+    width: 100%;
+    height: 100vh;
+    padding-top: 80px !important;
+    padding-left: 6% !important;
+    color: #F8FFFF;
+    background-color: #24504E;
+}
+.slog{
+    font-size:60px;
+    font-weight: 900;
+    width: 80%;
+    margin-top: 100px;
+    line-height: 70px;
+}
+.sous-slog{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.btn-white{
+    background-color: #F6FDFD !important;
+    color: #24504E !important;
+    border-radius: 0 !important;
+    margin-top: 30px !important;
+    font-weight: 700 !important;
+}
+.img-center{
+    position: absolute;
+    top: 50%;
+    left: 63%;
+    transform: translate(-63%, -50%);
+}
+.img-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 300px;
+}
+.Centertitle{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.centerImg{
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50% , -75%);
+    height: 450px;
+}
+.align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+    color: #fff;
+}
+.align2{
+    box-shadow:  0px 8px 24px #102423;
+    
+}   
+.parag{
+    margin-top: 15px;
+    font-size: 11px;
+}
+.bigNum{
+    font-size: 18px;
+    font-weight: 700;
+}
+.whiteCadre{
+    background-color: #fff;
+    padding: 15px 20px;
+    margin-top: 30px;
+}
+.name{
+    color: #24504E;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.reviews{
+    font-weight: 900;
+    font-size: 24px;
+}
+.rectg1{
+    background-color: #E1ECEC;
+    height: 15px;
+    width: 80%;
+}
+.rectg2{
+    background-color: #c6f0f0;
+    height: 15px;
+    width: 60%;
+}
+.footer{
+    background-color: #172023;
+}
+.DownArrow{
+    position: absolute;
+    right: 22%;
+    top: 50%;
+    transform: translate(-22% , -50%);
+    height: 50px;
+}
